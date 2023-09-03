@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Verificador De Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Ano de nascimento
+                <input type="number" name="txtano" id="txtano">
+            </p>
+            <p>
+                Sexo
+                <input type="radio" name="radsex" id="mas"checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados corretamente</p>    
+        </div>
+        <div id="fotos">
+            <img id="imagem" src="./image/foto-bebe-h." alt="">
+        </div>
+
+    </section>
+    <footer>
+        <p>site criado por Evenilson <br>
+            DEV.FRONT-END <br>
+            &copy2023
+
+        </p>
+
+    </footer>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
